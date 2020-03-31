@@ -1,5 +1,5 @@
 ##########################
-# Script to configure ESXi host after initial installation
+# Script to configure ESXi host after initial installation of OS and setting IP Address
 # 
 # Created by Manuel Martinez 4/6/2017
 # 
@@ -819,6 +819,4 @@ Set-PowerCLIConfiguration -Scope Session -InvalidCertificateAction Ignore -Confi
     PauseContinue
 
 #endregion
-
-
 
